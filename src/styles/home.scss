@@ -1,0 +1,69 @@
+.container {
+    margin-inline: 24rem;
+
+    .logo {
+        margin-top: 4rem;
+    }
+
+    .logoGitHub {
+        position: Absolute;
+        top: 0;
+        right: 24rem;
+    }
+
+    header {
+        margin-top: 10rem;
+        margin-bottom: 12rem;
+
+        h1 {
+            width: 50rem;
+            font-weight: 700;
+            font-size: 4.8rem;
+            line-height: 5.6rem;
+            margin-bottom: 4rem;
+        }
+
+        .button {
+            display: flex;
+            max-width: 71.4rem;
+            height: 7.2rem;
+
+            input[type="text"] {
+                display: flex;
+                flex: 1;
+
+                padding-inline: 2.9rem;
+                padding-block: 2.6rem;
+
+                border: 0;
+                border-radius: 5px 0px 0px 5px;
+                outline: 0;
+
+                color: #3d3d4d;
+                font-weight: 500;
+                font-size: 2.2rem;
+                line-height: 2.3rem;
+
+                &::placeholder {
+                    color: #a8a8b3;
+                    font-weight: 400;
+                    font-size: 2rem;
+                }
+            }
+
+            button {
+                width: 21rem;
+
+                border: 0;
+                border-radius: 0px 5px 5px 0px;
+                outline: 0;
+
+                background-color: #04d361;
+                color: #fff;
+                font-size: 1.8rem;
+                font-weight: 700;
+                line-height: 2.1rem;
+            }
+        }
+    }
+}

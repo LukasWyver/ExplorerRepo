@@ -1,0 +1,51 @@
+section.repository-list {
+    max-width: 71.4rem;
+
+    ul {
+        list-style: none;
+
+        li {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 1.6rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .left {
+                display: flex;
+                align-items: center;
+            }
+
+            & + li {
+                margin-top: 2rem;
+            }
+
+            img {
+                width: 4rem;
+                height: 4rem;
+
+                margin-right: 2.4rem;
+            }
+
+            strong {
+                font-weight: 700;
+                font-size: 2.4rem;
+                line-height: 2.813rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+                color: #444;
+                margin-top: 0.4rem;
+            }
+
+            .right {
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
